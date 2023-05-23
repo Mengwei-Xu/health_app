@@ -1,0 +1,13 @@
+@using = mcapl
+
+target = ail.util.AJPF_w_AIL
+
+target.args = /privacy_agents/fitness_app_example/fitness_app_one_by_one.ail,/privacy_agents/fitness_app_example/fitness_app.psl,5
+
+
+
+//log.info = ail.mas.DefaultEnvironment,ajpf.product.Product,ajpf.MCAPLAgent
+
+//listener+=,.listener.ExecTracker
+//et.print_insn=false
+//et.show_shared=false

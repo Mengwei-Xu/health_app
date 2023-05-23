@@ -1,0 +1,9 @@
+mas.file = /privacy_agents/fitness_app_example/fitness_app_one_by_one.gwen
+mas.builder = gwendolen.GwendolenMASBuilder
+
+env = ail.mas.DefaultEnvironment
+
+log.info = ail.mas.DefaultEnvironment
+log.format = brief
+//log.fine = ail.semantics.AILAgent
+//pretty = ail
