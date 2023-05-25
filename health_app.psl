@@ -1,5 +1,5 @@
 1: <> (ItD(agent, send(user, 2, decline(marital_status))))
 2: <> (ItD(agent, send(user, 2, substitute(dob, age))))
-3: B(agent, data(home_address)) -> (<> ItD(agent, send(user, 2, decline(gps))))
-4: B(agent, data(dob)) & B(agent, data(gender)) & B(agent, workout_plan(present)) & B(agent, diet_recommendations(present)) & B(agent, daily_physical_activities(monitored)) -> (<> ItD(agent, send(user, 2, decline(bmi))))
+3: (<> B(agent, data(home_address))) -> (<> ItD(agent, send(user, 2, decline(gps))))
+4: (<> B(agent, data(dob)) & B(agent, data(gender)) & B(agent, workout_plan(present)) & B(agent, diet_recommendations(present)) & B(agent, daily_physical_activities(monitored))) -> (<> ItD(agent, send(user, 2, decline(bmi))))
 5: <> (ItD(agent, send(user, 2, approve(full_name)))) & <> (~(ItD(agent, send(user, 2, decline(full_name)))))
