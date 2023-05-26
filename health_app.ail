@@ -1,4 +1,4 @@
-mas.file = /privacy_agents/fitness_app_example/fitness_app_one_by_one.gwen
+mas.file = /health_app/health_app.gwen
 mas.builder = gwendolen.GwendolenMASBuilder
 
 env = ail.mas.DefaultEnvironment

@@ -2,7 +2,7 @@
 
 target = ail.util.AJPF_w_AIL
 
-target.args = /privacy_agents/fitness_app_example/fitness_app_one_by_one.ail,/privacy_agents/fitness_app_example/fitness_app.psl,5
+target.args = /health_app/health_app.ail,/health_app/fitness_app.psl,5
 
 
 
