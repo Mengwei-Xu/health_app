@@ -50,8 +50,7 @@ belief(daily_physical_activities(monitored))
 
 +data(X) : {True} <-
         *all_beliefs_shared,
-        +!data_requirement(X) [perform],
-        +decision_made(X);
+        +!data_requirement(X) [perform];
 
 +!data_requirement(marital_status) [perform] : {True} <- .send(user, :perform, decline(marital_status)), +decline(marital_status);
 +!data_requirement(occupation) [perform] : {True} <- .send(user, :perform, decline(occupation)), +decline(occupation);
@@ -116,8 +115,7 @@ belief(daily_physical_activities(monitored))
 
 +data(X) : {True} <-
         *all_beliefs_shared,
-        +!data_requirement(X) [perform],
-        +decision_made(X);
+        +!data_requirement(X) [perform];
 
 +!data_requirement(marital_status) [perform] : {True} <- .send(user, :perform, decline(marital_status)), +decline(marital_status);
 +!data_requirement(occupation) [perform] : {True} <- .send(user, :perform, decline(occupation)), +decline(occupation);
